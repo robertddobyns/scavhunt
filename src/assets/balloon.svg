@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 147 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-26.5162,-1.58692)">
+        <g id="Balloon" transform="matrix(1.08964,0,0,1,-7.31771,0)">
+            <g transform="matrix(1,0,0,1,-17.76,-18.1378)">
+                <ellipse cx="116.261" cy="105.502" rx="67.45" ry="85.777" style="fill:rgb(255,0,31);"/>
+            </g>
+            <g transform="matrix(0.926824,0,0,1,6.13488,0)">
+                <path d="M71.105,160.671L57.939,194.301L143.249,192.79L131.527,159.159L71.105,160.671" style="fill:rgb(255,0,31);"/>
+            </g>
+        </g>
+    </g>
+</svg>
