@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 195 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-0.166486,-2.19749)">
-        <g id="Layer1">
-            <g transform="matrix(0.868583,-0.83691,0.83691,0.868583,-58.573,93.4933)">
-                <circle cx="58.73" cy="63.274" r="37.504" style="fill:rgb(0,195,41);"/>
-            </g>
-            <g transform="matrix(0.868583,-0.83691,0.83691,0.868583,-7.65762,146.336)">
-                <circle cx="58.73" cy="63.274" r="37.504" style="fill:rgb(0,195,41);"/>
-            </g>
-            <g transform="matrix(0.868583,-0.83691,0.83691,0.868583,-5.39055,41.6172)">
-                <circle cx="58.73" cy="63.274" r="37.504" style="fill:rgb(0,195,41);"/>
-            </g>
-            <g transform="matrix(0.868583,-0.83691,0.83691,0.868583,45.5249,94.4595)">
-                <circle cx="58.73" cy="63.274" r="37.504" style="fill:rgb(0,195,41);"/>
-            </g>
-            <g transform="matrix(0.868583,-0.83691,0.83691,0.868583,-7.6848,95.7277)">
-                <circle cx="58.73" cy="63.274" r="37.504" style="fill:rgb(0,195,41);"/>
-            </g>
-            <g transform="matrix(1.2175,0,0,1.29179,-27.4535,-37.6664)">
-                <path d="M129.675,146.312C129.675,146.312 151.214,154.625 164.25,180.887L173.13,173.519C173.13,173.519 167.084,154.247 141.767,135.354C116.45,116.46 129.675,146.312 129.675,146.312Z" style="fill:rgb(0,195,41);"/>
+<svg width="100%" height="100%" viewBox="0 0 200 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0.0763625,0.269856)">
+        <g transform="matrix(1,0,0,1,2.25715,0.0326492)">
+            <g id="Clover">
+                <path d="M53.964,54.889C51.603,40.684 56.044,25.588 67.189,14.85C85.168,-2.474 113.828,-1.941 131.151,16.037C141.625,26.907 145.572,41.682 143.082,55.492C156.975,53.517 171.593,58.01 182.067,68.88C199.39,86.858 198.858,115.519 180.879,132.842C173.402,140.047 164.077,144.163 154.489,145.22C177.502,166.764 183.333,186.483 183.333,186.483L172.522,196.002C163.181,176.037 150.255,164.102 141.2,157.662C139.985,167.613 135.472,177.226 127.696,184.718C109.718,202.041 81.057,201.509 63.734,183.53C53.26,172.661 49.314,157.886 51.803,144.076C37.91,146.051 23.292,141.558 12.819,130.688C-4.505,112.709 -3.972,84.049 14.006,66.726C25.008,56.126 40.008,52.211 53.964,54.889Z" style="fill:rgb(0,195,41);stroke:black;stroke-width:5px;"/>
             </g>
         </g>
     </g>

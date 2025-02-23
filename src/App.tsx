@@ -6,7 +6,7 @@ import GoldStar from "./assets/goldStar.svg";
 import Heart from "./assets/heart.svg";
 import Clover from "./assets/clover.svg";
 import Balloon from "./assets/balloon.svg";
-import Moon from "./assets/moon.svg";
+import Moon from "./assets/Moon.svg";
 import Horeseshoe from "./assets/horseshoe.svg";
 import Gold from "./assets/gold.svg";
 
