@@ -12,12 +12,12 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
 
   function Limerick() {
     return (
-      <>
+      <StyledLimerick>
         <p>{text[0]}</p>
         <p>{text[1]}</p>
         <p>{text[2]}</p>
         <p>{text[3]}</p>
-      </>
+      </StyledLimerick>
     );
   }
 
@@ -29,9 +29,7 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
         onChange={() => setChecked(!checked)}
         color="success"
       />
-      <StyledLimerick>
-        <Limerick />
-      </StyledLimerick>
+      <Limerick />
       <StyledIcon className={checked ? "fade-in" : "fade-out"}>
         <img src={asset} alt={"test"} />
       </StyledIcon>
@@ -39,26 +37,27 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
   );
 };
 
-const StyledLimerick = styled("div")(() => ({
+const StyledLimerick = styled("div")(({ theme }) => ({
   padding: "10px",
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "1rem",
+  },
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "1.25rem",
+  },
 }));
 
 const StyledItem = styled("div")(({ theme }) => ({
-  backgroundColor: "#90a955",
-  color: "#fff",
+  background: "linear-gradient(45deg, #adcc66,rgb(138, 168, 69))",
+  color: "#000",
   position: "relative",
   display: "flex",
   alignItems: "center",
   padding: "10px",
-  border: "1px solid #ccc",
   borderRadius: "5px",
   margin: "20px",
   height: "150px",
-  "& p": {
-    margin: 0,
-  },
   [theme.breakpoints.down("sm")]: {
-    fontSize: "1rem",
     margin: "0 0 20px 0",
   },
 }));
@@ -69,7 +68,6 @@ const StyledIcon = styled("div")(() => ({
   position: "absolute",
   width: "50px",
   height: "50px",
-  alignSelf: "end",
 }));
 
 export default Item;

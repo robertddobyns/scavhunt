@@ -12,7 +12,8 @@
   padding: 0;
   box-sizing: border-box;
 
-  background-color: #132a13;
+  background: linear-gradient(45deg, #132a13, #31572c);
+
 }
 
 * {
