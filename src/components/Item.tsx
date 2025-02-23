@@ -32,9 +32,9 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
       <StyledLimerick>
         <Limerick />
       </StyledLimerick>
-      <div className={checked ? "fade-in" : "fade-out"}>
-        <StyledIcon src={asset} alt={"test"} />
-      </div>
+      <StyledIcon className={checked ? "fade-in" : "fade-out"}>
+        <img src={asset} alt={"test"} />
+      </StyledIcon>
     </StyledItem>
   );
 };
@@ -63,9 +63,7 @@ const StyledItem = styled("div")(({ theme }) => ({
   },
 }));
 
-const StyledIcon = styled("img")(() => ({
-  opacity: 1,
-  transition: "opacity 1s ease",
+const StyledIcon = styled("div")(() => ({
   right: "10px",
   top: "50px",
   position: "absolute",

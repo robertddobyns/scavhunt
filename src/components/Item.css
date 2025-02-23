@@ -1,8 +1,21 @@
 .fade-in {
     transition: opacity 1s ease;
+    animation-name: spin;
+    animation-duration: 3s;
 }
 
 .fade-out {
     transition: opacity 0.5s ease;
     opacity: 0;
+}
+
+@keyframes spin {
+    0% {
+    }
+    50% {
+        scale: 2;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
