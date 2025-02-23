@@ -1,5 +1,5 @@
 .fade-in {
-    transition: opacity 1s ease;
+    transition: opacity 0.25s ease;
     animation-name: spin;
     animation-duration: 3s;
 }
@@ -16,6 +16,6 @@
         scale: 2;
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(720deg);
     }
 }
