@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { styled, Checkbox } from "@mui/material";
+import "./Item.css";
 
 interface ItemProps {
   text: string[];
@@ -31,13 +32,15 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
       <StyledLimerick>
         <Limerick />
       </StyledLimerick>
-      {checked && <StyledIcon src={asset} alt={'test'} />}
+      <div className={checked ? "fade-in" : "fade-out"}>
+        <StyledIcon src={asset} alt={"test"} />
+      </div>
     </StyledItem>
   );
 };
 
 const StyledLimerick = styled("div")(() => ({
-    padding: '10px',
+  padding: "10px",
 }));
 
 const StyledItem = styled("div")(({ theme }) => ({
@@ -60,16 +63,15 @@ const StyledItem = styled("div")(({ theme }) => ({
   },
 }));
 
-const StyledIcon = styled("img")(({ theme }) => ({
+const StyledIcon = styled("img")(() => ({
+  opacity: 1,
+  transition: "opacity 1s ease",
   right: "10px",
   top: "50px",
   position: "absolute",
   width: "50px",
   height: "50px",
   alignSelf: "end",
-  [theme.breakpoints.down("sm")]: {
-    width: "50px",
-  },
 }));
 
 export default Item;
