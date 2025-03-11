@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { styled, Checkbox } from "@mui/material";
 import "./Item.css";
 
 interface ItemProps {
   text: string[];
   asset: string;
+  handleClick?: () => void; 
 }
 
 const Item: React.FC<ItemProps> = ({ text, asset }) => {
@@ -17,8 +18,13 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
         <p>{text[1]}</p>
         <p>{text[2]}</p>
         <p>{text[3]}</p>
+        <p>{text[4]}</p>
       </StyledLimerick>
     );
+  }
+
+  function handleCheckBoxClick() {
+    setChecked(!checked);
   }
 
   return (
@@ -26,7 +32,7 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
       <Checkbox
         size="large"
         checked={checked}
-        onChange={() => setChecked(!checked)}
+        onChange={handleCheckBoxClick}
         color="success"
       />
       <Limerick />
@@ -56,7 +62,7 @@ const StyledItem = styled("div")(({ theme }) => ({
   padding: "10px",
   borderRadius: "5px",
   margin: "20px",
-  height: "150px",
+  height: "175px",
   [theme.breakpoints.down("sm")]: {
     margin: "0 0 20px 0",
   },
