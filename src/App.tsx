@@ -35,8 +35,8 @@ function App() {
     [
       "An ETG leprechaun from Texas, so bold",
       "Had a pot full of treasure and gold",
-      "He'd dance and he'd sing",
-      "With a twang and a swing",
+      "With points, he does fine",
+      "Because they're all 99",
       "In the Lone Star State, tales are told"
     ],
     [
