@@ -33,7 +33,7 @@ function App() {
       "and they are always well dressed"
     ],
     [
-      "A leprechaun from Texas, so bold",
+      "An ETG leprechaun from Texas, so bold",
       "Had a pot full of treasure and gold",
       "He'd dance and he'd sing",
       "With a twang and a swing",
