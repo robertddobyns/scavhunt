@@ -46,7 +46,8 @@ const Item: React.FC<ItemProps> = ({ text, asset }) => {
 const StyledLimerick = styled("div")(({ theme }) => ({
   padding: "10px",
   [theme.breakpoints.down("sm")]: {
-    fontSize: "1rem",
+    fontSize: "0.8rem",
+    lineHeight: "1.75rem",
   },
   [theme.breakpoints.up("sm")]: {
     fontSize: "1.25rem",
@@ -69,11 +70,12 @@ const StyledItem = styled("div")(({ theme }) => ({
 }));
 
 const StyledIcon = styled("div")(() => ({
-  right: "10px",
-  top: "50px",
   position: "absolute",
-  width: "50px",
-  height: "50px",
+  top: '50%',
+  left: '50%',
+  transform: "translate(-50%, -50%)",
+  width: "100px",
+  height: "100px",
 }));
 
 export default Item;

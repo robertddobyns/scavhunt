@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { styled } from "@mui/material";
 import Header from "./components/Header";
 import Item from "./components/Item";
@@ -88,9 +87,9 @@ function App() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              height: "100vh",
+              height: "90vh",
               color: 'white',
-              fontSize: "4rem"
+              fontSize: "2rem"
             }}
           >
             Coming Tomorrow!
