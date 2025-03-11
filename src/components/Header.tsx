@@ -13,6 +13,8 @@ export default Header;
 
 const StyledHeader = styled('header')(() => ({
     backgroundColor: '#007bff',
+    display: 'flex',
+    justifyContent: 'center',
     color: 'white',
     padding: '1rem',
     textAlign: 'center',
