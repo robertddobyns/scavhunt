@@ -109,8 +109,9 @@ function App() {
           </>
         );
       case 13:
+        console.log(`hour: ${hour}, minute: ${minute}`);
         if (hour >= 9 && minute >= 2) {
-          console.log(`hour: ${hour}, minute: ${minute}`);
+
           return (
             <>
               <Tuesday />
@@ -118,7 +119,24 @@ function App() {
               <Thursday />
             </>
           );
-        } else {
+        } else if(hour >= 9 && minute < 2) {
+          return (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "90vh",
+                color: "white",
+                fontSize: "2rem",
+              }}
+            >
+              Just Kidding! Now you have to wait until 9:02!
+            </div>
+          )
+        } 
+        
+        else {
           return (
             <div
               style={{
