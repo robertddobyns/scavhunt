@@ -9,6 +9,9 @@ import Balloon from "./assets/balloon.svg";
 import Horeseshoe from "./assets/horseshoe.svg";
 
 function App() {
+
+  const MITHILA = 'You are a cheater! What are you looking at? Just thought you could get a sneak peak? Nice. I like that.';
+
   const limericks = [
     [
       "There once was a man with a knack",
